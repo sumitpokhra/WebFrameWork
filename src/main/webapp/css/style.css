@@ -1,0 +1,90 @@
+html {
+	box-sizing: border-box;
+	font-size: 100%;
+}
+
+body {
+	background-color: #2c3338;
+	color: #606468;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-weight: 400;
+	line-height: 1.5;
+	margin: 0;
+}
+
+.grid {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -150px 0 0 -150px;
+	width: 300px;
+	height: 300px;
+}
+
+.login {
+	color: #eee;
+}
+
+.form__field {
+	display: flex;
+	margin: 14px;
+	margin: 0.875rem;
+}
+
+input[type='button'], .login input[type='password'], .login input[type='text'],
+	login input[type='number'] {
+	border-top-right-radius: 0.25em;
+	border-top-left-radius: 0.25em;
+	border-bottom-right-radius: 0.25em;
+	border-bottom-left-radius: 0.25em;
+}
+
+input {
+	width: 100%;
+	margin-bottom: 10px;
+	padding: 10px;
+	border: none;
+	border: 1px solid;
+	border-radius: 0.25rem;
+}
+
+::-webkit-input-placeholder {
+	color: black;
+}
+
+input[type='button'], input[type='submit'] {
+	cursor: pointer;
+	background-color: #4C88EA;
+}
+
+.grid h1 {
+	color: #fff;
+	letter-spacing: 0.1px;
+	text-align: center;
+}
+
+#user {
+	color: #52BE80;
+}
+
+#errorMsg {
+	color: red;
+	text-align: center;
+}
+
+.search input[type='submit']:focus, .search input[type='submit']:hover {
+	background-color: #d44179;
+}
+
+.search input[name='accountNo'], .search input[type='submit'] {
+	width: 45%;
+}
+
+.logout input[type='submit'] {
+	position: fixed;
+	right: 30px;
+	top: 5px;
+	width: 10%;
+}
